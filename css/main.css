@@ -212,6 +212,9 @@ header.normal-header {
   overflow: hidden;
   float: right;
   font-size: 20px; }
+  @media only screen and (max-width: 768px) {
+    .mobile-header__button {
+      width: 66px; } }
   .mobile-header__button:hover, .mobile-header__button:visited, .mobile-header__button:active {
     text-decoration: none;
     color: #fff; }
@@ -243,6 +246,9 @@ header.normal-header {
     background-position: left center;
     background-repeat: no-repeat;
     padding: 40px; }
+    @media only screen and (max-width: 768px) {
+      .subpages__header {
+        padding: 13px; } }
     .subpages__header__content {
       display: flex;
       width: 100%;
