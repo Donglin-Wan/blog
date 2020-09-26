@@ -323,6 +323,9 @@ header.normal-header {
         overflow: hidden;
         float: right;
         font-size: 20px;
+        @include responsive(medium-screens) {
+            width: 66px;
+        }
         &:hover,
         &:visited,
         &:active {
@@ -364,6 +367,9 @@ header.normal-header {
         background-position: left center;
         background-repeat: no-repeat;
         padding: 40px;
+        @include responsive(medium-screens) {
+            padding: 13px;
+        }
         &__content {
             display: flex;
             width: 100%;
