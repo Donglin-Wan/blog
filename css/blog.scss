@@ -28,6 +28,9 @@ $width-large: 1200px;
     .subpages--blog {
         padding: 25px;
         background-color: #fff;
+        @include responsive(medium-screens) {
+            padding: 0;
+        }
         .blog-image {
             img {
                 display: block;
@@ -41,6 +44,10 @@ $width-large: 1200px;
             padding: 30px;
             margin: -51px 40px 0;
             background-color: #fff;
+            @include responsive(medium-screens) {
+                padding: 2px;
+                margin: -51px 11px 0;
+            }
             h1 {
                 text-align: left;
             }

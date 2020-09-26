@@ -3,6 +3,9 @@
 .subpages-container .subpages--blog {
   padding: 25px;
   background-color: #fff; }
+  @media only screen and (max-width: 768px) {
+    .subpages-container .subpages--blog {
+      padding: 0; } }
   .subpages-container .subpages--blog .blog-image img {
     display: block;
     height: auto;
@@ -13,6 +16,10 @@
     padding: 30px;
     margin: -51px 40px 0;
     background-color: #fff; }
+    @media only screen and (max-width: 768px) {
+      .subpages-container .subpages--blog .blog-content {
+        padding: 2px;
+        margin: -51px 11px 0; } }
     .subpages-container .subpages--blog .blog-content h1 {
       text-align: left; }
     .subpages-container .subpages--blog .blog-content .blog-meta span.seperator {

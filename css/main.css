@@ -233,7 +233,7 @@ header.normal-header {
   background-color: #F5F5F5; }
   @media only screen and (max-width: 768px) {
     .subpages {
-      margin: 59px 15px 15px 30px; } }
+      margin: 59px 7px 30px; } }
   .subpages__header {
     background-color: #2ec1ac;
     background-image: url(../images/main_bg.png);
